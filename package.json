@@ -1,0 +1,17 @@
+{
+  "name": "faucet-sol-devnet",
+  "version": "1.0.0",
+  "description": "Script to request SOL from devnet faucet for multiple wallet addresses using proxies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "bs58": "^5.0.0",
+    "chalk": "^4.1.2",
+    "https-proxy-agent": "^5.0.1",
+    "node-fetch": "^2.7.0",
+    "readline-sync": "^1.4.10"
+  }
+} 
